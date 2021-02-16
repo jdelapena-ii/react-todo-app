@@ -77,6 +77,11 @@ p {
   margin-bottom: 32px;
 }
 
+.todo-label {
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
 .complete {
   text-decoration: line-through;
   opacity: 0.4;

@@ -42,7 +42,7 @@ function TodoList() {
 
     return (
         <div>
-            <h1>This is a list of todos for today</h1>
+            <h1 className="todo-label">This is a list of your todos for today. List them below.</h1>
             <TodoForm onSubmit={addTodo} />
             <Todo
                 todos={todos}
